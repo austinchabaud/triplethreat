@@ -198,7 +198,7 @@ img {
 }
 
 a {
-	color: #888;
+	color: #000;
 	text-decoration: none;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -357,7 +357,7 @@ body {
 body {
 	font: 14px/25px Arial, Helvetica, sans-serif;
 	font-family: 'Teko', sans-serif;
-	background: #fff;
+	background: #000;
 	color: #666;
 	font-size: 19px;
 	line-height: 1.6em;
@@ -386,10 +386,10 @@ body .wrap-body {
 	display: inline-block;
 	text-decoration: none;
 	letter-spacing: 1px;
-	color: #888888;
+	color: #fff;
 }
 .link a:hover {
-	color: #fff;
+	color: #000;
 }
 .link li:after {
 	content: '-';
@@ -458,9 +458,45 @@ a.search-submit-button {
 /* -------------------------------------Header--------------------------------- */
 /* ---------------------------------------------------------------------------- */
 header {
-	background: #131313;
+	background: #fff;
 	padding: 40px 0 55px;
 	margin-bottom: 70px;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+.fa-facebook {
+	background: #3b5998;
+	color: white;
+}
+
+div.banner-top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 3rem;
+	padding: 20px;
+	color: black;
+	background-image: linear-gradient(
+		to right,
+		rgb(203, 73, 29),
+		rgb(216, 216, 216),
+		rgb(255, 179, 0)
+	);
+	margin-bottom: 45px;
+	height: 5rem;
+	width: 100%;
 }
 
 a.site-branding {
